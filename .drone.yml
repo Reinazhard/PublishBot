@@ -8,7 +8,7 @@ steps:
     environment:
       BOT_TOKEN:
         from_secret: bot_token
-      CHAT_ID: -1001339045129
+      CHAT_ID: -1001403511595
     commands:
       - ./drone.sh --start
   - name: lint
@@ -22,7 +22,7 @@ steps:
     environment:
       BOT_TOKEN:
         from_secret: bot_token
-      CHAT_ID: -1001339045129
+      CHAT_ID: -1001403511595
     commands:
       - ./drone.sh
     when:
